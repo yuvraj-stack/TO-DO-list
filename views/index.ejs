@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+  <div class="main">
+    <div class="container">
+      <img src="/images/sticky-note.png" alt="error">
+      <h2>Create your account</h2>
+      <form  action="/register" method="post">
+
+        <label for="fullname">Fullname</label>
+        <input class="a" type="text" name="fullname" required> 
+        <label for="username">Username</label>
+        <input class="a" type="text" name="username" required>
+        <label for="password">Password</label>
+        <input class="a" type="password" name="password" required >
+        <input class="btn" type="submit" value="Create account" >
+      </form>
+      <a href="/login">Have an account? Sign in.</a>
+    </div>
+  </div>
+</body>
+</html>
